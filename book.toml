@@ -1,0 +1,6 @@
+[book]
+authors = ["silence_zhpf"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+title = "Yew及周边笔记"
