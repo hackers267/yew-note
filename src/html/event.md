@@ -1,0 +1,105 @@
+# 事件
+
+## DOM事件
+
+在`yew`中支持多种事件，其不仅仅支持DOM中已有的事件，比如`click`,`input`，用户也可以自定义事件。目前支持的DOM事件包含：
+
+
+| Event listener name       | web_sys Event Type |
+|---------------------------|--------------------|
+| onabort                   | Event              |
+| onauxclick                | MouseEvent         |
+| onblur                    | FocusEvent         |
+| oncancel                  | Event              |
+| oncanplay                 | Event              |
+| oncanplaythrough          | Event              |
+| onchange                  | Event              |
+| onclick                   | MouseEvent         |
+| onclose                   | Event              |
+| oncontextmenu             | MouseEvent         |
+| oncuechange               | Event              |
+| ondblclick                | MouseEvent         |
+| ondrag                    | DragEvent          |
+| ondragend                 | DragEvent          |
+| ondragenter               | DragEvent          |
+| ondragexit                | DragEvent          |
+| ondragleave               | DragEvent          |
+| ondragover                | DragEvent          |
+| ondragstart               | DragEvent          |
+| ondrop                    | DragEvent          |
+| ondurationchange          | Event              |
+| onemptied                 | Event              |
+| onended                   | Event              |
+| onerror                   | Event              |
+| onfocus                   | FocusEvent         |
+| onfocusin                 | FocusEvent         |
+| onfocusout                | FocusEvent         |
+| onformdata                | Event              |
+| oninput                   | InputEvent         |
+| oninvalid                 | Event              |
+| onkeydown                 | KeyboardEvent      |
+| onkeypress                | KeyboardEvent      |
+| onkeyup                   | KeyboardEvent      |
+| onload                    | Event              |
+| onloadeddata              | Event              |
+| onloadedmetadata          | Event              |
+| onloadstart               | ProgressEvent      |
+| onmousedown               | MouseEvent         |
+| onmouseenter              | MouseEvent         |
+| onmouseleave              | MouseEvent         |
+| onmousemove               | MouseEvent         |
+| onmouseout                | MouseEvent         |
+| onmouseover               | MouseEvent         |
+| onmouseup                 | MouseEvent         |
+| onpause                   | Event              |
+| onplay                    | Event              |
+| onplaying                 | Event              |
+| onprogress                | ProgressEvent      |
+| onratechange              | Event              |
+| onreset                   | Event              |
+| onresize                  | Event              |
+| onscroll                  | Event              |
+| onsecuritypolicyviolation | Event              |
+| onseeked                  | Event              |
+| onseeking                 | Event              |
+| onselect                  | Event              |
+| onslotchange              | Event              |
+| onstalled                 | Event              |
+| onsubmit                  | SubmitEvent        |
+| onsuspend                 | Event              |
+| ontimeupdate              | Event              |
+| ontoggle                  | Event              |
+| onvolumechange            | Event              |
+| onwaiting                 | Event              |
+| onwheel                   | WheelEvent         |
+| oncopy                    | Event              |
+| oncut                     | Event              |
+| onpaste                   | Event              |
+| onanimationcancel         | AnimationEvent     |
+| onanimationend            | AnimationEvent     |
+| onanimationiteration      | AnimationEvent     |
+| onanimationstart          | AnimationEvent     |
+| ongotpointercapture       | PointerEvent       |
+| onloadend                 | ProgressEvent      |
+| onlostpointercapture      | PointerEvent       |
+| onpointercancel           | PointerEvent       |
+| onpointerdown             | PointerEvent       |
+| onpointerenter            | PointerEvent       |
+| onpointerleave            | PointerEvent       |
+| onpointerlockchange       | Event              |
+| onpointerlockerror        | Event              |
+| onpointermove             | PointerEvent       |
+| onpointerout              | PointerEvent       |
+| onpointerover             | PointerEvent       |
+| onpointerup               | PointerEvent       |
+| onselectionchange         | Event              |
+| onselectstart             | Event              |
+| onshow                    | Event              |
+| ontouchcancel             | TouchEvent         |
+| ontouchend                | TouchEvent         |
+| ontouchmove               | TouchEvent         |
+| ontouchstart              | TouchEvent         |
+| ontransitioncancel        | TransitionEvent    |
+| ontransitionend           | TransitionEvent    |
+| ontransitionrun           | TransitionEvent    |
+| ontransitionstart         | TransitionEvent    |
